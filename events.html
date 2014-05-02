@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Midterm Project</title>
+  <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+	<div class="navbar">
+		<ul>
+			<li><a href="index.html" title="Home"><span class="glyphicon glyphicon-home"></span></a><li>
+            <li><a href="events.html" title="Upcoming Shows"><span class="glyphicon glyphicon-music"></span></a><li>
+            <li><a href="photos.html" title="Photos"><span class="glyphicon glyphicon-camera"></span></a><li>
+			<li><input type="text" name="firstname" placeholder="username" class="input-box"></li>
+            <li><input type="text" name="email" placeholder="password" class="input-box"></li>
+			<li><button type="button" class="btn btn-default input-button">Sign In</button></li>
+		</ul>
+	</div>
+
+	<div class="events-container">
+		<div class="event-header">
+			<h2>Upcoming Concerts</h2>
+			<p>Be sure to catch one of these shows or add a show of your own</p>
+		</div>
+		<div class="event">
+			<div class="event-pic">
+				<img src="http://img213.imageshack.us/img213/3833/carlbaratl33wm.jpg" width="120" height="120" alt="...">
+			</div>
+			<div class="event-info">
+				<div class="band-venue-list">
+					<ul>
+						<li class="band-name">Even The Trees</li>
+						<li class="venue-name">Gothic Theater</li>
+						<li class="date">05/05/14</li>
+					</ul>
+				</div>
+				<div class="band-info">
+				<p>From South Central Los Angeles, Ozomatli has been playing music for 20+ years to audiences all over the world. PLaying a mix of latin inspired hip hop, they are sure to get you moving. Don't just do something, stand there!</p>
+				</div>
+			</div>
+		</div>
+		<div class="event">
+			<div class="event-pic">
+				<img src="http://thumbs.dreamstime.com/x/silhouette-rock-band-9219259.jpg" width="120" height="120" alt="...">
+			</div>
+			<div class="event-info">
+				<div class="band-venue-list">
+					<ul>
+						<li class="band-name">Dyslexic Bob</li>
+						<li class="venue-name">Bluebird Theater</li>
+						<li class="date">05/07/14</li>						
+					</ul>
+				</div>
+				<div class="band-info">
+				<p>Biltong spare ribs meatball landjaeger doner leberkas kielbasa cow turkey sausage pastrami shoulder pork belly. Corned beef ground round chuck ham hock frankfurter prosciutto brisket pork loin turducken bacon porchetta.</p>
+				</div>
+			</div>
+		</div>
+		<div class="event">
+			<div class="event-pic">
+				<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ7ZOyrED6vucuDSCKtEan0RlBJPdhpPei5X1SgNhm5Rfl5GYR_" width="120" height="120" alt="...">
+			</div>
+			<div class="event-info">
+				<div class="band-venue-list">
+					<ul>
+						<li class="band-name">Good Lasagna</li>
+						<li class="venue-name">Pepsi Center</li>
+						<li class="date">05/08/14</li>
+					</ul>
+				</div>
+				<div class="band-info">
+				<p>Turkey corned beef frankfurter flank, filet mignon beef ribs biltong venison shoulder sausage. Pancetta short ribs tongue. T-bone jerky Ham hock turducken tongue sausage spare ribs. I bowled a turkey once.</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="event">
+			<div class="event-pic">
+				<img src="http://placehold.it/120x120">
+			</div>
+		</div>
+		<div class="event">
+			<div class="event-pic">
+				<img src="http://placehold.it/120x120">
+			</div>
+		</div>
+		<div class="event">
+			<div class="event-pic">
+				<img src="http://placehold.it/120x120">
+			</div>
+		</div>
+		<div class="add-show">
+		<p>If it's not listed, we don't know about it... Add it to the list!</p>
+		<button id="add-show-btn" type="button">Add A Show</button>
+		</div>
+	</div>
+
+	<div id="add-show-form" class="add-form-layout">
+		<h4>Give us some info and we'll add ya to the list.</h4>
+		<div class="hide-form">
+			<label class="hide-label">What is the name of your band?</label>
+			<input type="text" placeholder="band name" class="hide-input text-input">
+		</div>
+		<div class="hide-form">
+			<label class="hide-label">Where is the show at?</label>
+			<input type="text" placeholder="venue" class="hide-input text-input">
+		</div>
+		<div class="hide-form">
+			<label class="hide-label">Give us some info about your band?</label>
+			<textarea cols="50" rows="3" type="text" placeholder="band info" class="hide-input"></textarea>
+		</div>
+		<div class="hide-form">
+		<button type="button" class="add-event-btn">Rock On!</button>
+		</div>
+	</div>
+
+
+	<div class="footer" class="music-scene">
+		<p>Support your local music scene AND share with your friends!</p>
+	</div>
+	
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  <script src="main.js"></script>
+
+</body>
+</html>

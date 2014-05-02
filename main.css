@@ -1,0 +1,443 @@
+body {
+	background-color: cadetblue; 
+}
+
+p {
+	padding: 10px 15px;
+}
+
+h1, h2{
+	margin-right: 15px;
+	text-decoration: none;
+	text-align: center;
+}
+
+h2 p {
+	text-align: center;
+}
+
+.navbar {
+	list-style-type: none;
+	text-decoration: none;
+	margin: 30px auto 20px;
+	width: 960px;
+	height: 80px;
+	border: 10px solid rgb(47,79,79);
+	border-top: none;
+	border-radius: 20px;
+}
+
+.glyphicon {
+	float: left;
+	padding: 15px 0 15px 40px;
+}
+
+.input-box {
+	width: 220px;
+	height: 30px;
+	line-height: 1.2em;
+	font-size: 20px;	
+	margin-top: 18px;
+}
+
+.input-button {
+	float: right;
+	height: 30px;
+	margin: 18px 35px 15px 15px;
+}
+
+.navbar ul {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.navbar li {
+	display: inline;
+	padding-top: 25px;
+	vertical-align: middle;
+	font-size: 30px;
+	text-shadow: 2px 4px 6px dimgrey;
+}
+
+.navbar a {
+	padding: 10px 25px;
+}
+
+.navbar a:link {
+	color: rgb(47,79,79); 
+}
+
+.navbar a:hover {
+	text-decoration: none;
+	font-weight: bold; 
+}
+
+.navbar a:visited {
+	color: rgb(47,79,79);
+}
+
+.content-box {
+	display: block;
+	border: 10px solid rgb(47,79,79);
+	margin: 20px auto;
+	height: 500px;
+	width: 960px;
+	border-radius: 20px;
+	border-top: none;
+	border-bottom: none;
+}
+
+.column-border h1 {
+	text-align: center;
+	text-decoration: none;
+	padding-left: 15px;
+}
+
+/*.music-scene p {
+	text-align: center;
+	font-size: 20px;
+	letter-spacing: 0.2em;
+	color: firebrick;
+}*/
+
+.footer {
+	border: 10px solid rgb(47,79,79);
+	margin: 5px auto 30px;
+	height: 80px;
+	width: 960px;
+	border-radius: 20px;
+	border-bottom: none;
+}
+
+.footer p {
+	font-size: 22px;
+	text-align: center;
+	letter-spacing: 0.2em;
+	font-variant: small-caps;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+.carousel-img-1 {
+	width: 960px;
+	max-height: 340px;
+	margin: 0 auto;
+	border-radius: 20px;
+}
+
+.glyphicon-chevron-right {
+	left: 20px;
+}
+
+.glyphicon-chevron-left {
+	left: 20px;
+}
+
+.btn-block {
+	background-color: rgba(47,79,79,0.3); 
+	border: 1px solid rgb(47,79,79);
+	color: rgb(47,79,79);
+	font-size: 22px;
+	margin-top: 25px; 
+}
+
+.month-name {
+	text-align: center;
+	padding-top: 20px;
+}
+
+/*centers whole calendar container on the page*/
+.calendar-container {
+	border-radius: 20px;
+	width: 960px;				
+	margin: 0 auto;
+	padding: 0 0 30px 0;
+}
+
+/*width and height of calendar border*/
+.cal-border {							
+	border: 5px solid rgb(47,79,79);
+	width: 960px; 					
+	height: 700px;					
+	margin: 0 auto;
+	border-radius: 20px;
+}
+
+/*controls the weekly rows*/
+.cal-body tr {
+	border: 5px solid rgb(47,79,79);
+	height: 120px;
+	width: 960px;
+	border-radius: 20px;
+}
+
+td {
+	border: 5px solid rgb(47,79,79);
+	border-radius: 20px;
+	padding: 25px 50px;
+	width: 14.285%;
+}
+
+#lightbox-back {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	display: none;
+	z-index: 15;
+	background: rgba(55,55,55,0.5);
+}
+
+#lightbox-area {
+	width: 60%;
+	/*height: 600px;*/
+	margin: 100px auto;
+	/*overflow: auto;*/
+	z-index: 15;
+	border: 1px solid gray;
+	border-radius: 15px;
+	padding: 10px;
+	display: block;
+	background: rgba(192,192,192,0.9);
+	box-shadow: 0px 6px 8px rgba(0,0,0,0.5), 0px 6px 8px rgba(0,0,0,0.2);
+}
+
+#lightbox-area p {
+	text-align: center;
+}
+
+.questions {
+	overflow: hidden;
+}
+
+.light-btn {
+	overflow: hidden;
+}
+
+.light-btn ul {
+	list-style-type: none;
+}
+
+.light-btn li {
+	display: inline;
+}
+
+.feedback-submit {
+	float: right;
+	width: 60px;
+	margin-right: 12px;
+}
+
+.exit-lightbox {
+	float: right;
+	margin-right: 12px;
+	width: 60px;
+}
+
+.questions {
+	padding: 0 5px 25px 20px;
+	font-size: 18px;
+}
+
+.rate-input {
+	float: right;
+	margin-right: 10px;
+}
+
+.inputbox{
+	width: 350px;
+}
+
+.comments {
+	top: 0px;
+}
+
+.events-container, .photo-container {
+	border: 10px solid rgb(47,79,79);
+	margin: 20px auto;
+	/*height: none;*/
+	width: 960px;
+	border-radius: 20px;
+	border-top: none;
+	border-bottom: none;
+	overflow: hidden;
+}
+
+.band-info p {
+	padding-left: 135px;
+}
+
+.event-header h2 {
+	font-size: 44px;
+}
+
+.event-header p {
+	text-align: center;
+	font-size: 18px;
+}
+
+.event {
+	height: 126px;
+	border: 3px solid rgb(47,79,79);
+	border-radius: 0 10px 10px 0;
+	margin: 30px; 
+}
+
+.event-pic {
+	/*border: 1px solid red;*/
+	display: inline-block;
+	float: left;
+}
+
+/*.event-info {
+	border: 1px solid red;
+}*/
+
+.band-venue-list ul {
+	list-style-type: none;
+}
+
+.band-venue-list li {
+	display: inline;
+	padding: 15px 10px 0 45px;
+}
+
+.band-name {
+	font-weight: bold;
+	font-size: 28px;
+}
+
+.venue-name {
+	font-size: 24px;
+}
+
+.date {
+	font-size: 18px;
+}
+
+.add-show {
+	text-align: center;
+}
+
+.add-show p {
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	padding: 12px 0;
+}
+
+#add-show-btn {
+	text-align: center;
+	margin: 0 auto; 
+	height: 40px;
+	width: 140px;
+	border-radius: 8px;
+}
+
+#add-show-form {
+	display: none;
+}
+
+.add-form-layout {
+	position: relative;
+	border: 10px double firebrick;
+	background: rgba(47,79,79,0.3);
+	margin: 0 auto;
+	width: 50%;
+	height: 300px;
+	padding: 15px 0; 
+	overflow: hidden;
+}
+
+.add-form-layout h4 {
+	text-align: center;
+	font-size: 22px;
+	text-decoration: underline;
+	padding-bottom: 5px;
+}
+
+.hide-form {
+	padding: 10px;
+}
+
+.hide-label {
+	font-size: 16px;
+}
+
+.hide-input {
+	float: right;
+}
+
+.text-input {
+	width: 322px;
+}
+
+.add-event-btn {
+	position: absolute;
+	right: 10px;
+	bottom: 5px;
+	/*margin-top: 65px;*/
+}
+
+.main-img-container img {
+	border-radius: 10px 10px 0 0;
+}
+
+.gallery-header p {
+	text-align: center;
+	font-size: 18px;
+}
+
+.gallery-row {
+	text-align: center;
+	display: block;
+	padding: 30px 20px;
+}
+
+/*ALL OF THIS IS FOR HOVER OVER PICTURE INFO*/
+
+.gallery-photo {
+	position: relative;
+	display: inline-block;
+}
+
+span.gallery-text-content {
+	background: rgba(0,0,0,0.8);
+	color: white;
+	cursor: pointer;
+	display: table;
+	height: 200px;							
+	left: 54px;											
+	position: absolute;
+	top: 0;
+	width: 200px;
+	opacity: 0;
+	-webkit-transition: opacity 500ms;
+	-moz-transition: opacity 500ms;
+	-o-transition: opacity 500ms;
+	transition: opacity 500ms;
+}
+
+.gallery-row .gallery-photo:hover span.gallery-text-content {
+	opacity: 1;
+}
+
+span.gallery-text-content span {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
